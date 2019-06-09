@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180FD44920DDB2DC00A7BB8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180FD44820DDB2DC00A7BB8C /* LaunchScreen.storyboard */; };
+		27DF646319657A9300B42725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DF646219657A9300B42725 /* AppDelegate.swift */; };
+		27DF646519657A9300B42725 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27DF646419657A9300B42725 /* Images.xcassets */; };
+		27DF647B19657AD900B42725 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DF647A19657AD900B42725 /* Storyboard.storyboard */; };
+		666682BD22AD2A7C002DA3F7 /* ZestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666682BC22AD2A7C002DA3F7 /* ZestViewController.swift */; };
+		666682BF22AD2A96002DA3F7 /* ZestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666682BE22AD2A95002DA3F7 /* ZestModel.swift */; };
+		666682C122AD2D0D002DA3F7 /* ZestTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666682C022AD2D0D002DA3F7 /* ZestTableView.swift */; };
+		666682EC22AD4501002DA3F7 /* pastebin.json in Resources */ = {isa = PBXBuildFile; fileRef = 666682EB22AD4501002DA3F7 /* pastebin.json */; };
+		666682F422AD4A2E002DA3F7 /* ZestListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666682F322AD4A2E002DA3F7 /* ZestListUITests.swift */; };
+		666682F622AD4A35002DA3F7 /* ZestListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666682F522AD4A35002DA3F7 /* ZestListTests.swift */; };
+		79407DBD1AE11A20005AAFB2 /* PhotoOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79407DBC1AE11A20005AAFB2 /* PhotoOperations.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		666682D822AD4217002DA3F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27DF645519657A9300B42725 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27DF645C19657A9300B42725;
+			remoteInfo = ClassicPhotos;
+		};
+		666682E622AD4224002DA3F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27DF645519657A9300B42725 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27DF645C19657A9300B42725;
+			remoteInfo = ClassicPhotos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180FD44820DDB2DC00A7BB8C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27DF645D19657A9300B42725 /* ZestList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZestList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27DF646119657A9300B42725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27DF646219657A9300B42725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27DF646419657A9300B42725 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		27DF647A19657AD900B42725 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		666682BC22AD2A7C002DA3F7 /* ZestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZestViewController.swift; sourceTree = "<group>"; };
+		666682BE22AD2A95002DA3F7 /* ZestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZestModel.swift; sourceTree = "<group>"; };
+		666682C022AD2D0D002DA3F7 /* ZestTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZestTableView.swift; sourceTree = "<group>"; };
+		666682D322AD4217002DA3F7 /* ZestListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZestListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		666682D722AD4217002DA3F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666682E122AD4224002DA3F7 /* ZestListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZestListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		666682E522AD4224002DA3F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666682EB22AD4501002DA3F7 /* pastebin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pastebin.json; sourceTree = "<group>"; };
+		666682F322AD4A2E002DA3F7 /* ZestListUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZestListUITests.swift; sourceTree = "<group>"; };
+		666682F522AD4A35002DA3F7 /* ZestListTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZestListTests.swift; sourceTree = "<group>"; };
+		79407DBC1AE11A20005AAFB2 /* PhotoOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoOperations.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27DF645A19657A9300B42725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666682D022AD4217002DA3F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666682DE22AD4224002DA3F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27DF645419657A9300B42725 = {
+			isa = PBXGroup;
+			children = (
+				27DF645F19657A9300B42725 /* ZestList */,
+				666682D422AD4217002DA3F7 /* ZestListTests */,
+				666682E222AD4224002DA3F7 /* ZestListUITests */,
+				27DF645E19657A9300B42725 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27DF645E19657A9300B42725 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27DF645D19657A9300B42725 /* ZestList.app */,
+				666682D322AD4217002DA3F7 /* ZestListTests.xctest */,
+				666682E122AD4224002DA3F7 /* ZestListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27DF645F19657A9300B42725 /* ZestList */ = {
+			isa = PBXGroup;
+			children = (
+				666682C722AD3BCD002DA3F7 /* ThreadUtility */,
+				666682C622AD3BAB002DA3F7 /* Storyboard */,
+				666682C522AD3B96002DA3F7 /* Setup */,
+				666682C422AD3B94002DA3F7 /* Model */,
+				666682C322AD3B91002DA3F7 /* View */,
+				666682C222AD3B8C002DA3F7 /* Controller */,
+				27DF646419657A9300B42725 /* Images.xcassets */,
+				27DF646019657A9300B42725 /* Supporting Files */,
+			);
+			path = ZestList;
+			sourceTree = "<group>";
+		};
+		27DF646019657A9300B42725 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27DF646119657A9300B42725 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		666682C222AD3B8C002DA3F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				666682BC22AD2A7C002DA3F7 /* ZestViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		666682C322AD3B91002DA3F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				666682C022AD2D0D002DA3F7 /* ZestTableView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		666682C422AD3B94002DA3F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				666682BE22AD2A95002DA3F7 /* ZestModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		666682C522AD3B96002DA3F7 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				27DF646219657A9300B42725 /* AppDelegate.swift */,
+			);
+			name = Setup;
+			sourceTree = "<group>";
+		};
+		666682C622AD3BAB002DA3F7 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				180FD44820DDB2DC00A7BB8C /* LaunchScreen.storyboard */,
+				27DF647A19657AD900B42725 /* Storyboard.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		666682C722AD3BCD002DA3F7 /* ThreadUtility */ = {
+			isa = PBXGroup;
+			children = (
+				79407DBC1AE11A20005AAFB2 /* PhotoOperations.swift */,
+			);
+			name = ThreadUtility;
+			sourceTree = "<group>";
+		};
+		666682D422AD4217002DA3F7 /* ZestListTests */ = {
+			isa = PBXGroup;
+			children = (
+				666682F522AD4A35002DA3F7 /* ZestListTests.swift */,
+				666682EB22AD4501002DA3F7 /* pastebin.json */,
+				666682D722AD4217002DA3F7 /* Info.plist */,
+			);
+			path = ZestListTests;
+			sourceTree = "<group>";
+		};
+		666682E222AD4224002DA3F7 /* ZestListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				666682F322AD4A2E002DA3F7 /* ZestListUITests.swift */,
+				666682E522AD4224002DA3F7 /* Info.plist */,
+			);
+			path = ZestListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27DF645C19657A9300B42725 /* ZestList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27DF647419657A9300B42725 /* Build configuration list for PBXNativeTarget "ZestList" */;
+			buildPhases = (
+				27DF645919657A9300B42725 /* Sources */,
+				27DF645A19657A9300B42725 /* Frameworks */,
+				27DF645B19657A9300B42725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZestList;
+			productName = ClassicPhotos;
+			productReference = 27DF645D19657A9300B42725 /* ZestList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		666682D222AD4217002DA3F7 /* ZestListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666682DA22AD4217002DA3F7 /* Build configuration list for PBXNativeTarget "ZestListTests" */;
+			buildPhases = (
+				666682CF22AD4217002DA3F7 /* Sources */,
+				666682D022AD4217002DA3F7 /* Frameworks */,
+				666682D122AD4217002DA3F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				666682D922AD4217002DA3F7 /* PBXTargetDependency */,
+			);
+			name = ZestListTests;
+			productName = ZestListTests;
+			productReference = 666682D322AD4217002DA3F7 /* ZestListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		666682E022AD4224002DA3F7 /* ZestListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666682E822AD4224002DA3F7 /* Build configuration list for PBXNativeTarget "ZestListUITests" */;
+			buildPhases = (
+				666682DD22AD4224002DA3F7 /* Sources */,
+				666682DE22AD4224002DA3F7 /* Frameworks */,
+				666682DF22AD4224002DA3F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				666682E722AD4224002DA3F7 /* PBXTargetDependency */,
+			);
+			name = ZestListUITests;
+			productName = ZestListUITests;
+			productReference = 666682E122AD4224002DA3F7 /* ZestListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27DF645519657A9300B42725 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Ray Wenderlich";
+				TargetAttributes = {
+					27DF645C19657A9300B42725 = {
+						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0920;
+					};
+					666682D222AD4217002DA3F7 = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = 2YEUDAN6YZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 27DF645C19657A9300B42725;
+					};
+					666682E022AD4224002DA3F7 = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = 2YEUDAN6YZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 27DF645C19657A9300B42725;
+					};
+				};
+			};
+			buildConfigurationList = 27DF645819657A9300B42725 /* Build configuration list for PBXProject "ZestList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 27DF645419657A9300B42725;
+			productRefGroup = 27DF645E19657A9300B42725 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27DF645C19657A9300B42725 /* ZestList */,
+				666682D222AD4217002DA3F7 /* ZestListTests */,
+				666682E022AD4224002DA3F7 /* ZestListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27DF645B19657A9300B42725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180FD44920DDB2DC00A7BB8C /* LaunchScreen.storyboard in Resources */,
+				27DF646519657A9300B42725 /* Images.xcassets in Resources */,
+				27DF647B19657AD900B42725 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666682D122AD4217002DA3F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666682EC22AD4501002DA3F7 /* pastebin.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666682DF22AD4224002DA3F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27DF645919657A9300B42725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DF646319657A9300B42725 /* AppDelegate.swift in Sources */,
+				666682BF22AD2A96002DA3F7 /* ZestModel.swift in Sources */,
+				79407DBD1AE11A20005AAFB2 /* PhotoOperations.swift in Sources */,
+				666682BD22AD2A7C002DA3F7 /* ZestViewController.swift in Sources */,
+				666682C122AD2D0D002DA3F7 /* ZestTableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666682CF22AD4217002DA3F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666682F622AD4A35002DA3F7 /* ZestListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666682DD22AD4224002DA3F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666682F422AD4A2E002DA3F7 /* ZestListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		666682D922AD4217002DA3F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27DF645C19657A9300B42725 /* ZestList */;
+			targetProxy = 666682D822AD4217002DA3F7 /* PBXContainerItemProxy */;
+		};
+		666682E722AD4224002DA3F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27DF645C19657A9300B42725 /* ZestList */;
+			targetProxy = 666682E622AD4224002DA3F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27DF647219657A9300B42725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27DF647319657A9300B42725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27DF647519657A9300B42725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZestList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindvalley.assignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		27DF647619657A9300B42725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZestList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindvalley.assignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		666682DB22AD4217002DA3F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2YEUDAN6YZ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ZestListTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.binary.leaf.ZestListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZestList.app/ZestList";
+			};
+			name = Debug;
+		};
+		666682DC22AD4217002DA3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2YEUDAN6YZ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ZestListTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.binary.leaf.ZestListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZestList.app/ZestList";
+			};
+			name = Release;
+		};
+		666682E922AD4224002DA3F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2YEUDAN6YZ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ZestListUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.binary.leaf.ZestListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZestList;
+			};
+			name = Debug;
+		};
+		666682EA22AD4224002DA3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2YEUDAN6YZ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ZestListUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.binary.leaf.ZestListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZestList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27DF645819657A9300B42725 /* Build configuration list for PBXProject "ZestList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27DF647219657A9300B42725 /* Debug */,
+				27DF647319657A9300B42725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27DF647419657A9300B42725 /* Build configuration list for PBXNativeTarget "ZestList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27DF647519657A9300B42725 /* Debug */,
+				27DF647619657A9300B42725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		666682DA22AD4217002DA3F7 /* Build configuration list for PBXNativeTarget "ZestListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666682DB22AD4217002DA3F7 /* Debug */,
+				666682DC22AD4217002DA3F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		666682E822AD4224002DA3F7 /* Build configuration list for PBXNativeTarget "ZestListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666682E922AD4224002DA3F7 /* Debug */,
+				666682EA22AD4224002DA3F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27DF645519657A9300B42725 /* Project object */;
+}

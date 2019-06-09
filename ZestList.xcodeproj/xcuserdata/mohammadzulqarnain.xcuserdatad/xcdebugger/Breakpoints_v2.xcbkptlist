@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZestList/ZestViewController.swift"
+            timestampString = "581783034.5778739"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Error) -&gt; () in ZestList.ZestViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "ZestList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadzulqarnain/Desktop/Clients/MindValley/ZestList%20project/ZestList/ZestViewController.swift"
+                  timestampString = "581783034.586363"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "147">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #2 (Swift.Error) -&gt; () in ZestList.ZestViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "ZestList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadzulqarnain/Desktop/Clients/MindValley/ZestList%20project/ZestList/ZestViewController.swift"
+                  timestampString = "581783034.5927711"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
